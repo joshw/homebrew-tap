@@ -4,22 +4,22 @@ cask "zlily" do
 
   on_macos do
     on_intel do
-      sha256 "bce6d6baf08281c0412a45fce6d908c2a25acc8e13e0e76770263229d0dd6540"
+      sha256 "2bb416e480a87b7a50d3663ba02e411f11e7d3d9a2d71d689ff8956acc893042"
       url "https://github.com/joshw/zephyrlily/releases/download/v#{version}/zephyrlily_Darwin_x86_64.tar.gz"
     end
     on_arm do
-      sha256 "6a14f389d7cdb05f97bd68df731b8cbfc55f01e52a6512916a7625a38423b933"
+      sha256 "a9c1cdc00ca88d2130e88ca0435d6205b0c66657375f36200e394c217f95963c"
       url "https://github.com/joshw/zephyrlily/releases/download/v#{version}/zephyrlily_Darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "db60fa42da6ac817b8f24868763ade5d456ccd8686cb154b866a7893f1eca0b7"
+      sha256 "ae812db60783572862ceb8416a40e97314d58ae7f09e23ad2f0e6ba0befd9e09"
       url "https://github.com/joshw/zephyrlily/releases/download/v#{version}/zephyrlily_Linux_x86_64.tar.gz"
     end
     on_arm do
-      sha256 "54bdac7f432a23ff52b99bcaa9af9b474d6b442970488bec6d7a5035d2a449f5"
+      sha256 "b136fb2bd8c0591e89e9e9a73aaaff148d72f0e221ac97c33549ad00a33b47c8"
       url "https://github.com/joshw/zephyrlily/releases/download/v#{version}/zephyrlily_Linux_arm64.tar.gz"
     end
   end
